@@ -7,9 +7,9 @@ pair = 'BTC_ETH' # or 'USDT_BTC'
 CONFIG = {
     'pair': pair,
     'period': 300,
-    'input_size': 30,
-    'output_size': 12,
-    'lstm_hidden_size': 50,
+    'input_size': 60,
+    'output_size': 4,
+    'lstm_hidden_size': 10,
     'columns' : columns,
     'csv_src_file' : pair,
     'name': 'lstm',
