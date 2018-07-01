@@ -9,7 +9,7 @@ CONFIG = {
     'period': 300,
     'input_size': 120,
     'output_size': 10,
-    'lstm_hidden_size': 200,
+    'lstm_hidden_size': 300,
     'columns' : columns,
     'csv_src_file' : pair,
     'name': 'lstm',
